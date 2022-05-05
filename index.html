@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS SELECTORS / THE DOJO CLUB</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <heading class="banner">
+            <h1>CSS SELECTORS</h1>
+            <p class="description">CODECADEMY FULL-STACK ENGINEER CAREER PATH<br>
+            CHEATSHEET CODING CHALLENGE<br>
+            GIOVANNI BOULAY<br>
+            THE DOJO CLUB®<br>
+            MAY 5TH, 2022</p>
+            <p class="description">—</p>
+        </heading>
+
+        <main>
+            <h2 class="types">BASIC SELECTORS</h2>
+            <p class="subtypes">
+                <strong>universal selectors</strong><br>
+                Selects all elements. Optionally, it may be restricted to a specific namespace or to all namespaces. Syntax: * ns|* *|* Example: * will match all the elements of the document.
+                </p>
+            <p class="subtypes">
+                <strong>type selectors</strong><br>
+                Selects all elements that have the given node name. Syntax: elementname Example: input will match any &lt;input&gt; element.
+            </p>
+            <p class="subtypes">
+                <strong>class selectors</strong><br>
+                Selects all elements that have the given class attribute. Syntax: .classname Example: .index will match any element that has a class of "index".
+            </p>
+            <p class="subtypes">
+                <strong>id selector</strong><br>
+                Selects an element based on the value of its id attribute. There should be only one element with a given ID in a document. Syntax: #idname Example: #toc will match the element that has the ID "toc".
+            </p>
+            <p class="subtypes">
+                <strong>attribute selector</strong><br>
+                Selects all elements that have the given attribute. Syntax: [attr] [attr=value] [attr~=value] [attr|=value] [attr^=value] [attr$=value] [attr*=value] Example: [autoplay] will match all elements that have the autoplay attribute set (to any value).
+            </p>
+        </main>
+    </body> 
+</html>
+
+<!-- <p class="subtypes">
+    <strong></strong><br>
+</p> --> 

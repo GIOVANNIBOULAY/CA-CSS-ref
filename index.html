@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>CSS SELECTORS / THE DOJO CLUB</title>
-        <link rel="stylesheet" href="https://giovanniboulay.github.io/codecademy/style.css">
+        <link rel="stylesheet" href="styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     </head>
 
@@ -19,30 +19,115 @@
 
         <main>
             <h2 class="types">BASIC SELECTORS</h2>
-            <p class="subtypes">
-                <strong>universal selectors</strong><br>
-                Selects all elements. Optionally, it may be restricted to a specific namespace or to all namespaces. Syntax: * ns|* *|* Example: * will match all the elements of the document.
-                </p>
-            <p class="subtypes">
-                <strong>type selectors</strong><br>
-                Selects all elements that have the given node name. Syntax: elementname Example: input will match any &lt;input&gt; element.
-            </p>
-            <p class="subtypes">
-                <strong>class selectors</strong><br>
-                Selects all elements that have the given class attribute. Syntax: .classname Example: .index will match any element that has a class of "index".
-            </p>
-            <p class="subtypes">
-                <strong>id selector</strong><br>
-                Selects an element based on the value of its id attribute. There should be only one element with a given ID in a document. Syntax: #idname Example: #toc will match the element that has the ID "toc".
-            </p>
-            <p class="subtypes">
-                <strong>attribute selector</strong><br>
-                Selects all elements that have the given attribute. Syntax: [attr] [attr=value] [attr~=value] [attr|=value] [attr^=value] [attr$=value] [attr*=value] Example: [autoplay] will match all elements that have the autoplay attribute set (to any value).
-            </p>
-        </main>
-    </body> 
-</html>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2" class="subtypes">UNIVERSAL SELECTORS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>DEFINITION</strong></td>
+                        <td>Selects all elements. Optionally, it may be restricted to a specific namespace or to all namespaces.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>SYNTAX</strong></td>
+                        <td><em>* ns|* *|*</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>EXAMPLE</strong></td>
+                        <td>* will match all the elements of the document.</td>
+                    </tr>
+                </tbody>
+            </table>
 
-<!-- <p class="subtypes">
-    <strong></strong><br>
-</p> --> 
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2" class="subtypes">type selectors</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>DEFINITION</strong></td>
+                        <td>Selects all elements that have the given node name.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>SYNTAX</strong></td>
+                        <td><em>elementname</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>EXAMPLE</strong></td>
+                        <td>input will match any &lt;input&gt; element</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2" class="subtypes">class selectors</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>DEFINITION</strong></td>
+                        <td>Selects all elements that have the given class attribute.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>SYNTAX</strong></td>
+                        <td><em>.classname</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>EXAMPLE</strong></td>
+                        <td>.index will match any element that has a class of "index".</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2" class="subtypes">id selector</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>DEFINITION</strong></td>
+                        <td>Selects an element based on the value of its id attribute. There should be only one element with a given ID in a document.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>SYNTAX</strong></td>
+                        <td><em>#idname</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>EXAMPLE</strong></td>
+                        <td>#toc will match the element that has the ID "toc".</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2" class="subtypes">attribute selector</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>DEFINITION</strong></td>
+                        <td>Selects all elements that have the given attribute.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>SYNTAX</strong></td>
+                        <td><em>[attr] [attr=value] [attr~=value] [attr|=value] [attr^=value] [attr$=value] [attr*=value]</em></td>
+                    </tr>
+                    <tr>
+                        <td><strong>EXAMPLE</strong></td>
+                        <td>[autoplay] will match all elements that have the autoplay attribute set (to any value).</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+/* GENERAL */
+* {
+    text-transform: uppercase;
+}
+
+body {
+    background-color: #EEEEEE;
+    font-family: "Space Mono";
+    text-align: justify;
+    padding: 0 399px;
+    margin: 0 auto;
+}
+
+/* TOP */
+.banner {
+    color: red;
+    background-color: red;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 3;
+}
+
+.description {
+    font-size: 9px;
+}
+
+h1 {
+    font-size: 45px;
+    margin: 15px auto;
+}
+
+/* CONTENT */
+main {
+    color: #333;
+}
+
+.types {
+    font-size: px;
+    margin: 15px 0;
+}
+
+.subtypes {
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+table {
+    font-size: 12px;
+    border-collapse: separate; /* allow spacing between cell borders */
+    border-spacing: 3px 30px; /* NOTE: syntax is <horizontal value> <vertical value> */
+    
+}
